@@ -21,6 +21,7 @@ Depends:
     Rcpp (>= 0.12.0),
     methods
 Imports:
+    TBB
     rstan (>= 2.18.1),
     rstantools (>= 2.0.0),
     ggplot2,
@@ -43,6 +44,7 @@ Imports:
     DirichletMultinomial,
     TailRank
 LinkingTo: 
+    TBB,
     StanHeaders (>= 2.18.0), 
     rstan (>= 2.18.1), 
     BH (>= 1.66.0), 
