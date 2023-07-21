@@ -21,7 +21,7 @@ Depends:
     Rcpp (>= 0.12.0),
     methods
 Imports:
-    TBB
+    TBB,
     rstan (>= 2.18.1),
     rstantools (>= 2.0.0),
     ggplot2,
