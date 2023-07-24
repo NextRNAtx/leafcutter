@@ -22,8 +22,10 @@ Depends:
     methods
 Imports:
     TBB,
+    StanHeaders,
     rstan (>= 2.18.1),
     rstantools (>= 2.0.0),
+    BH,
     ggplot2,
     R.utils,
     gridExtra,
